@@ -1,0 +1,98 @@
+Curso
+
+Java
+___________________________________
+1. Diferencias entre gradle y Maven
+   - Kotlin y grovvy
+2. Dif entre versiones snapshot y rc1
+3. Dif entre graphQL y JSON
+4. Repasar convenciones rest, buenas practicas.
+5. En Maven que es provided y optional.
+
+HUBO UN PROBLEMA CON LOMBOK, volver a chequear. Solución, tiene que estar la versión de lombok en el plugin de Maven.
+<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.10.1</version>
+				<configuration>
+					<annotationProcessorPaths>
+						<path>
+							<groupId>org.projectlombok</groupId>
+							<artifactId>lombok</artifactId>
+							<version>1.18.30</version>
+						</path>
+					</annotationProcessorPaths>
+				</configuration>
+			</plugin>
+
+Pasos:
+1. Spring initlizr
+2. Scaffold de Spring 
+   - pom.xml
+   - Main
+   - application.properties
+   - Ejecutar proyecto.
+
+3. Hola Mundo
+  - Paquete controller
+  - Crear HolaMundoController.java
+  - Crear metodo holaMundo()
+  - Decorar clase RestController
+  - Decorar metodo GetMapping"hola-mundo"
+  - Subir y probar http://localhost:8080/hola-mundo
+  - Ver @ResponseStatus en los metodo controllers como alternativa a ResponseEntity
+  - ver Patch y Options.
+  -  leer un poco de Slf4j
+
+
+4. Hola Usuario
+  - Metodo pathvariable
+
+5. GetUsuario
+  - Crear paquete "dto".
+   - Crear dto usuario con lombok
+   - crear controller rest UserRestController
+   - Rest getUserById y retorna UserDTO
+
+
+6. Activar Swagger: 
+
+ 	<dependency>
+		<groupId>org.springdoc</groupId>
+		<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+		<version>2.8.4</version>
+	</dependency>
+ y http://localhost:8080/swagger-ui/index.html
+
+
+7. Crear Delete Put y Post de ejemplo bien mock
+
+
+8. ResponseEntity
+   - 200 Ok
+   - 204 delete o 202 accepted
+   - Post create body
+
+9. Request Mapping unificando nombres de recursos
+
+10. Bad request 
+    Not found
+    return ResponseEntity.status(HttpStatus.CONFLICT).build();
+
+11. Nombrar base path
+  - server.servlet.context-path=/api/v1
+
+12. @Slf4 reemplazar system.out.println por log.info
+
+13. Validación mail
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-validation</artifactId>
+		</dependency>
+		@Email(message) y @Valid
+
+14.     @JsonProperty("user_name")
+	@JsonIgnore
+
+   - 
+   
