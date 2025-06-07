@@ -69,7 +69,7 @@ if (isset($_POST['action'])){
     
   
 
-    mail("info@rbcanadian.com","Contacto WEB RB Canadian",$dataEnterprise . " " . $data);
+    mail("info@rcanadian.com","Contacto WEB RB Canadian",$dataEnterprise . " " . $data);
     $message = "Sus datos han sido enviados para el analisis correspondiente. <br> Nos contactaremos a la brevedad.";
 
   }
@@ -130,7 +130,7 @@ if (isset($_POST['action'])){
 					    	<div class="icon d-flex justify-content-center align-items-center"><span class="icon-paper-plane"></span></div>
 					    	<div class="text">
 					    		<span>Email</span>
-						    	<span>info@rbcanadian.com</span>
+						    	<span>info@rcanadian.com</span>
 						    </div>
 					    </div>
 					    <div class="col-md d-flex topper align-items-center align-items-stretch py-md-4">
@@ -385,7 +385,7 @@ if (isset($_POST['action'])){
                   <div class="icon">
                     <span class="icon-envelope-o"></span>
                   </div>
-                  <p><span>Email:</span> <a href="mailto:info@rbcanadian.com">info@rbcanadian.com</a></p>
+                  <p><span>Email:</span> <a href="mailto:info@rcanadian.com">info@rcanadian.com</a></p>
                 </div>
               </div>
             </div>
@@ -404,7 +404,7 @@ if (isset($_POST['action'])){
 	              <ul>
 	                <li><span class="icon icon-map-marker"></span><span class="text">Madrid, Espa&ntilde;a</span></li>
 	                <li><span class="icon icon-phone"></span><span class="text"><a href="tel:+541160531870">(+54) 11 6053 1870</a></span></li>
-	                <li><span class="icon icon-envelope"></span><span class="text">info@rbcanadian.com</span></li>
+	                <li><span class="icon icon-envelope"></span><span class="text">info@rcanadian.com</span></li>
 	              </ul>
 	            </div>
             </div>
