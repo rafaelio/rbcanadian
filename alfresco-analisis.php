@@ -69,7 +69,7 @@ if (isset($_POST['action'])){
     
   
 
-    mail("info@rcanadian.com","Contacto WEB RB Canadian",$dataEnterprise . " " . $data);
+    mail("info@rcanadian.com","Contacto WEB R Canadian",$dataEnterprise . " " . $data);
     $message = "Sus datos han sido enviados para el analisis correspondiente. <br> Nos contactaremos a la brevedad.";
 
   }
@@ -82,7 +82,7 @@ if (isset($_POST['action'])){
 <!DOCTYPE html>
 <html lang="es">
   <head>
-       <title>RB Canadian Alfresco</title>
+       <title>R Canadian Alfresco</title>
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
