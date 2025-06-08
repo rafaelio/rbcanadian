@@ -162,7 +162,7 @@ if (isset($_POST['action'])){
             <li class="nav-item"><a href="project.html" class="nav-link">Proyectos</a></li>
             <li class="nav-item"><a href="services.html" class="nav-link">Servicios</a></li>
             <li class="nav-item"><a href="blog.html" class="nav-link">Art&iacute;culos</a></li>
-            <li class="nav-item active"><a href="contact.php" class="nav-link">Contacto</a></li>
+            <li class="nav-item active"><a href="contact.html" class="nav-link">Contacto</a></li>
 	        </ul>
 	      </div>
 	    </div>
@@ -445,7 +445,7 @@ if (isset($_POST['action'])){
 	        	<li><a href="project.html" class="ion-ios-arrow-round-forward mr-2">Proyectos</a></li>
 	        	<li><a href="services.html" class="ion-ios-arrow-round-forward mr-2">Servicios</a></li>
 	        	<li><a href="blog.html" class="ion-ios-arrow-round-forward mr-2">Art&iacute;culos</a></li>
-	            <li><a href="contact.php" class="ion-ios-arrow-round-forward mr-2">Contacto</a></li>
+	            <li><a href="contact.html" class="ion-ios-arrow-round-forward mr-2">Contacto</a></li>
               </ul>
             </div>
           </div>
