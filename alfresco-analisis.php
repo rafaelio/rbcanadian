@@ -104,22 +104,13 @@ if (isset($_POST['action'])){
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165478740-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-165478740-1');
-    </script>
-
   </head>
   <body>
 	  <div class="bg-top navbar-light">
     	<div class="container">
     		<div class="row no-gutters d-flex align-items-center align-items-stretch">
     			<div class="col-md-4 d-flex align-items-center">
-    				<div><img src="images/logo.png" style="width:;margin-right: 15px;width: 275px" alt="Alfresco madrid"></div>
+    				<div><img src="images/logo.png" margin-right: 15px;width: 275px" alt="Alfresco madrid"></div>
             
             <br><span class="subtitle-logo"></span>
 
